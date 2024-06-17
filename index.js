@@ -8,3 +8,9 @@ function login(username, password) {
 function logout() {
     console.log('logout');
 }
+
+function log(msg){
+    if(msg){
+        console.log(msg);
+    }
+}
